@@ -1,0 +1,12 @@
+<div>
+<br><h2>POST TITLE:</h2><%= @post.content  %> <br>
+<br>
+<h3>Comments:</h3>
+
+<% @comments.each do |comment|  %>
+<%= comment.content %>
+<br>
+<br>
+<% end %>
+
+</div>
